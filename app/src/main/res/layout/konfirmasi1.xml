@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/konfirmasi1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="marla.com.pantiku.Konfirmasi1">
+
+<LinearLayout
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:weightSum="1">
+
+    <TextView
+        android:id="@+id/tittle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="100dp"
+        android:text="Data Donatur"
+        android:textColor="#000000"
+        android:textSize="25dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textnama"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:text="Nama :"
+        android:textSize="15dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginStart="1dp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/editnama"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginStart="1dp"
+        android:ems="15"
+        android:hint="Masukkan Nama Anda "
+        android:inputType="textPersonName"
+        android:padding="10dp"
+        android:text=""
+        android:textSize="15dp" />
+
+    <TextView
+        android:id="@+id/textalamat"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginStart="1dp"
+        android:layout_marginTop="20dp"
+        android:text="Alamat :"
+        android:textSize="15dp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/editalamat"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginStart="5dp"
+        android:ems="15"
+        android:hint="Masukkan Alamat Anda"
+        android:inputType="textPersonName"
+        android:text=""
+        android:textSize="15dp" />
+
+    <TextView
+        android:id="@+id/textnominal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:padding="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginStart="1dp"
+        android:text="Nominal :"
+        android:textSize="15dp"
+        android:textStyle="bold" />
+
+
+    <EditText
+        android:id="@+id/editnominal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginStart="5dp"
+        android:ems="15"
+        android:hint="Masukkan Nominal Donasi Anda "
+        android:inputType="number"
+        android:text=""
+        android:textSize="15dp" />
+
+
+    <TextView
+        android:id="@+id/textjudulmemilih"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Memilih Panti Asuhan :"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="55dp"
+        android:padding="10dp"
+        android:textColor="@android:color/black"
+        android:textSize="18dp" />
+
+    <TextView
+        android:id="@+id/textnamapanti"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginStart="5dp"
+        android:padding="5dp"
+        android:text="Nama Panti :"
+        android:textColor="@android:color/black"
+        android:textSize="15dp" />
+
+    <TextView
+        android:id="@+id/textisipanti"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="5dp"
+        android:layout_marginBottom="24dp"
+        android:text="TextView"
+        android:layout_marginLeft="10dp"
+        android:layout_marginStart="5dp"
+        android:textSize="15dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textalamatpanti"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginStart="5dp"
+        android:layout_marginBottom="1sp"
+        android:padding="5dp"
+        android:text="Alamat Panti :"
+        android:textSize="15dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textisialamat"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="30dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginStart="5dp"
+        android:padding="5dp"
+        android:text="TextView"
+        android:textSize="15dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textnorekpanti"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginStart="5dp"
+        android:layout_marginBottom="1sp"
+        android:padding="5dp"
+        android:text="No. Rekening Panti :"
+        android:textSize="15dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textisinorek"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="30dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginStart="5dp"
+        android:padding="5dp"
+        android:text="TextView"
+        android:textSize="15dp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/konfirmasidonasi"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/tekstelp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignStart="@+id/tekstelp"
+        android:text="Konfirmasi" />
+
+</LinearLayout>
+</ScrollView>
